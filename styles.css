@@ -1,0 +1,65 @@
+/* styles.css */
+@media screen and (max-width: 768px){
+  
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #2a4959;
+}
+
+
+
+.shop-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.box {
+  width: 100%;
+  max-width: 300px; 
+  margin: 10px;
+  box-sizing: border-box;
+}
+
+.box-img {
+  /* Your existing styles for box image */
+  background-size: cover;
+  background-position: center;
+  height: 100px; /* Adjust the height based on your design */
+}
+
+/* Add similar styles for other boxes and elements */
+
+/* Media queries for responsiveness */
+@media screen and (min-width: 600px) {
+  /* Adjust styles for screens larger than 600px */
+  .box {
+    max-width: 400px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  /* Adjust styles for screens larger than 900px */
+  .box {
+    max-width: 600px;
+  }
+}
+
+/* Adjust styles for smaller screens, e.g., mobile devices */
+@media screen and (max-width: 767px) {
+  .nav-search {
+    width: 100%;
+    text-align: center;
+  }
+
+  .search-select,
+  .search-input,
+  .search-icon {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
+}

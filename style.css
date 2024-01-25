@@ -171,7 +171,7 @@ body {
 
  
   
-   @media screen and (max-width: 768px) {
+   /* @media screen and (max-width: 768px) {
     .body img{
         background-image: url('amazon_images/background\ picture.png');
         background-size: cover;
@@ -245,4 +245,4 @@ body {
     margin-left: 10px;
     margin-right: 10px;
 }
- 
+  */
