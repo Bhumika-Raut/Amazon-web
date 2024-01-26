@@ -25,30 +25,24 @@ body {
 }
 
 .box-img {
-  /* Your existing styles for box image */
   background-size: cover;
   background-position: center;
-  height: 100px; /* Adjust the height based on your design */
+  height: 100px; 
 }
 
-/* Add similar styles for other boxes and elements */
-
-/* Media queries for responsiveness */
 @media screen and (min-width: 600px) {
-  /* Adjust styles for screens larger than 600px */
   .box {
     max-width: 400px;
   }
 }
 
 @media screen and (min-width: 900px) {
-  /* Adjust styles for screens larger than 900px */
+
   .box {
     max-width: 600px;
   }
 }
 
-/* Adjust styles for smaller screens, e.g., mobile devices */
 @media screen and (max-width: 767px) {
   .nav-search {
     width: 100%;
